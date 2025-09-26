@@ -5,11 +5,6 @@ import java.util.Scanner;
 
 public class PrintNumber{
 
-    public static int DEFAULT_CODE = 10001;
-
-    public static int add(int a, int b){
-        return a+b;
-    }
 
     public static void main(String[] args) throws IOException {
         int myNum=0;
@@ -18,8 +13,8 @@ public class PrintNumber{
             myNum=scanner.nextInt();
         }
         
-        System.out.println("You have entered: "+myNum + " " + DEFAULT_CODE);
+        System.out.println("You have entered: "+myNum );
 
-        System.out.println("Add Number : "+add(10,20));
+     
     }
 }
